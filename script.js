@@ -26,6 +26,8 @@ const iImages = [
 'Photos/Metis/photo-1.jpg',
 'Photos/Metis/photo-2.jpg',
 'Photos/Metis/photo-3.jpg',
+'Photos/Monk/photo-1.jpg',
+'Photos/Monk/photo-2.jpg',
 ];
 
 
@@ -117,6 +119,11 @@ const changedata = () => {
     Photographe = 'Bolide Studio';
     TitreProjet = 'Territoire Refuge';
     DescriptionProjet = 'Installation sculpturale<br>avec Caroline Fortin autrice<br><br>Grand-Métis, Québec';
+  }
+  if (icurrentIndex >= 27 && icurrentIndex <= 28)  {
+    Photographe = 'Alec Chenard';
+    TitreProjet = 'Monk';
+    DescriptionProjet = 'Aménagement d’un studio de musique<br><br>Montréal, Québec';
   }
 }
 
