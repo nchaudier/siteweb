@@ -114,12 +114,12 @@ const changedata = () => {
     DescriptionProjet = 'Installation sculpturale<br><br>Taghazout, Maroc';
   }
  
- 
    if (icurrentIndex >= 24 && icurrentIndex <= 26)  {
     Photographe = 'Bolide Studio';
     TitreProjet = 'Territoire Refuge';
     DescriptionProjet = 'Installation sculpturale<br>avec Caroline Fortin autrice<br><br>Grand-Métis, Québec';
   }
+  
   if (icurrentIndex >= 27 && icurrentIndex <= 28)  {
     Photographe = 'Alec Chenard';
     TitreProjet = 'Monk';
