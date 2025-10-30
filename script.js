@@ -1,11 +1,18 @@
 const iImages = [
-'Photos/La Conception/photo_1.jpg',
-'Photos/La Conception/photo_2.jpg',
-'Photos/La Conception/photo_3.jpg',
-'Photos/La Conception/photo_4.jpg',
-'Photos/La Conception/photo_5.jpg',
-'Photos/La Conception/photo_6.jpg',
-'Photos/La Conception/photo_7.jpg',
+'Photos/La Conception III/photo-01.jpg',
+'Photos/La Conception III/photo-02.jpg',
+'Photos/La Conception III/photo-03.jpg',
+'Photos/La Conception III/photo-04.jpg',
+'Photos/La Conception III/photo-05.jpg',
+'Photos/La Conception III/photo-06.jpg',
+'Photos/La Conception III/photo-07.jpg',
+'Photos/La Conception III/photo-08.jpg',
+'Photos/La Conception III/photo-09.jpg',
+'Photos/La Conception III/photo-10.jpg',
+'Photos/La Conception III/photo-11.jpg',
+'Photos/La Conception III/photo-12.jpg',
+'Photos/La Conception III/photo-13.jpg',
+'Photos/La Conception III/photo-14.jpg',
 'Photos/En Eaux Vives/photo-1.jpg',
 'Photos/En Eaux Vives/photo-2.jpg',
 'Photos/En Eaux Vives/photo-3.jpg',
@@ -28,6 +35,13 @@ const iImages = [
 'Photos/Metis/photo-3.jpg',
 'Photos/Monk/photo-1.jpg',
 'Photos/Monk/photo-2.jpg',
+'Photos/La Conception/photo_1.jpg',
+'Photos/La Conception/photo_2.jpg',
+'Photos/La Conception/photo_3.jpg',
+'Photos/La Conception/photo_4.jpg',
+'Photos/La Conception/photo_5.jpg',
+'Photos/La Conception/photo_6.jpg',
+'Photos/La Conception/photo_7.jpg',
 ];
 
 
@@ -67,7 +81,7 @@ const credits = document.getElementById("credits");
 
 const copyright = document.getElementById("copyright");
 
-namep.innerHTML = 'David Dworkind'
+namep.innerHTML = 'Fred Tougas'
 
 i.src = iImages[icurrentIndex];
 
@@ -82,49 +96,49 @@ iImages.forEach(url => preloadImage(url));
 
 const changedata = () => { 
   
-  if (icurrentIndex >= 0 && icurrentIndex <= 5)  {
-    Photographe = 'David Dworkind';
-    TitreProjet = 'La Conception';
-    DescriptionProjet = 'Résidence hôtelière sous hinterhouse<br>avec David Dworkind architecte<br><br>Prix d’excellence en architecture<br>Ordre des Architectes du Québec<br><br>La Conception, Québec';
+  if (icurrentIndex >= 0 && icurrentIndex <= 13)  {
+    Photographe = 'Fred Tougas';
+    TitreProjet = 'La Conception III';
+    DescriptionProjet = 'Gîte touristique<br><br>La Conception, Québec';
   } 
-  if (icurrentIndex == 6)  {
-    Photographe = 'Nicolas Chaudier + David Dworkind';
-    TitreProjet = 'La Conception';
-    DescriptionProjet = 'Résidence hôtelière sous hinterhouse<br>avec David Dworkind architecte<br><br>Prix d’excellence en architecture<br>Ordre des Architectes du Québec<br><br>La Conception, Québec';
-  }
- if (icurrentIndex >= 7 && icurrentIndex <= 11){
+ if (icurrentIndex >= 14 && icurrentIndex <= 18){
     Photographe = 'Fred Tougas';
     TitreProjet = 'En Eaux Vives';
     DescriptionProjet = 'Installation sculpturale <br> avec Caroline Fortin autrice<br><br>Prix Innovation<br>Grands Prix Desjardins de la culture de Lanaudière<br><br>Sainte-Mélanie, Québec';
   } 
-  if (icurrentIndex >= 12 && icurrentIndex <= 15)  {
+  if (icurrentIndex >= 19 && icurrentIndex <= 22)  {
     Photographe = 'Bolide Studio';
     TitreProjet = 'Chertsey';
     DescriptionProjet = 'Mirco développement immobilier<br><br>Chertsey, Québec';
   }
-   if (icurrentIndex >= 16 && icurrentIndex <= 20){
+   if (icurrentIndex >= 23 && icurrentIndex <= 27){
     Photographe = 'Fred Tougas';
     TitreProjet = 'Sherbrooke';
     DescriptionProjet = 'Aménagement du SOMO lounge<br>avec Barbeaux Desrosiers<br><br>Montréal, Québec';
   }
   
-   if (icurrentIndex >= 21 && icurrentIndex <= 23)  {
+   if (icurrentIndex >= 28 && icurrentIndex <= 30)  {
     Photographe = 'Acimness';
     TitreProjet = 'Salon Marocain en Plein Air';
     DescriptionProjet = 'Installation sculpturale<br><br>Taghazout, Maroc';
   }
  
-   if (icurrentIndex >= 24 && icurrentIndex <= 26)  {
+   if (icurrentIndex >= 31 && icurrentIndex <= 33)  {
     Photographe = 'Bolide Studio';
     TitreProjet = 'Territoire Refuge';
     DescriptionProjet = 'Installation sculpturale<br>avec Caroline Fortin autrice<br><br>Grand-Métis, Québec';
   }
-  
-  if (icurrentIndex >= 27 && icurrentIndex <= 28)  {
+
+  if (icurrentIndex >= 34 && icurrentIndex <= 35)  {
     Photographe = 'Alec Chenard';
     TitreProjet = 'Monk';
-    DescriptionProjet = 'Aménagement d’un studio de musique<br><br>Montréal, Québec';
+    DescriptionProjet = 'Aménagement d’un studio de musique<br> avec <br><br>Montréal, Québec';
   }
+    if (icurrentIndex >= 36 && icurrentIndex <= 42)  {
+    Photographe = 'David Dworkind';
+    TitreProjet = 'La Conception';
+    DescriptionProjet = 'Gîte touristique sous <i>hinterhouse</i><br>avec David Dworkind architecte<br><br>Prix d’excellence en architecture<br>Ordre des Architectes du Québec<br><br>La Conception, Québec';
+  } 
 }
 
 
