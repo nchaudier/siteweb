@@ -13,6 +13,18 @@ const iImages = [
 'Photos/La Conception III/photo-12.jpg',
 'Photos/La Conception III/photo-13.jpg',
 'Photos/La Conception III/photo-14.jpg',
+'Photos/La Conception IV/photo-01.jpg',
+'Photos/La Conception IV/photo-02.jpg',
+'Photos/La Conception IV/photo-03.jpg',
+'Photos/La Conception IV/photo-04.jpg',
+'Photos/La Conception IV/photo-05.jpg',
+'Photos/La Conception IV/photo-06.jpg',
+'Photos/La Conception IV/photo-07.jpg',
+'Photos/La Conception IV/photo-08.jpg',
+'Photos/La Conception IV/photo-09.jpg',
+'Photos/La Conception IV/photo-10.jpg',
+'Photos/La Conception IV/photo-11.jpg',
+'Photos/La Conception IV/photo-12.jpg',
 'Photos/En Eaux Vives/photo-1.jpg',
 'Photos/En Eaux Vives/photo-2.jpg',
 'Photos/En Eaux Vives/photo-3.jpg',
@@ -101,45 +113,54 @@ const changedata = () => {
     TitreProjet = 'La Conception III';
     DescriptionProjet = 'Gîte touristique<br><br>La Conception, Québec';
   } 
- if (icurrentIndex >= 14 && icurrentIndex <= 18){
+
+    if (icurrentIndex >=14  && icurrentIndex <=25 )  {
+    Photographe = 'Fred Tougas';
+    TitreProjet = 'La Conception IV';
+    DescriptionProjet = 'Gîte touristique<br><br>La Conception, Québec';
+  } 
+
+ if (icurrentIndex >= 26 && icurrentIndex <= 30){
     Photographe = 'Fred Tougas';
     TitreProjet = 'En Eaux Vives';
     DescriptionProjet = 'Installation sculpturale <br> avec Caroline Fortin autrice<br><br>Prix Innovation<br>Grands Prix Desjardins de la culture de Lanaudière<br><br>Sainte-Mélanie, Québec';
   } 
-  if (icurrentIndex >= 19 && icurrentIndex <= 22)  {
+  if (icurrentIndex >= 31 && icurrentIndex <= 34)  {
     Photographe = 'Bolide Studio';
     TitreProjet = 'Chertsey';
     DescriptionProjet = 'Mirco développement immobilier<br><br>Chertsey, Québec';
   }
-   if (icurrentIndex >= 23 && icurrentIndex <= 27){
+   if (icurrentIndex >= 35 && icurrentIndex <= 39){
     Photographe = 'Fred Tougas';
     TitreProjet = 'Sherbrooke';
     DescriptionProjet = 'Aménagement du SOMO lounge<br>avec Barbeaux Desrosiers<br><br>Montréal, Québec';
   }
   
-   if (icurrentIndex >= 28 && icurrentIndex <= 30)  {
+   if (icurrentIndex >= 40 && icurrentIndex <= 42)  {
     Photographe = 'Acimness';
     TitreProjet = 'Salon Marocain en Plein Air';
     DescriptionProjet = 'Installation sculpturale<br><br>Taghazout, Maroc';
   }
  
-   if (icurrentIndex >= 31 && icurrentIndex <= 33)  {
+   if (icurrentIndex >= 43 && icurrentIndex <= 46)  {
     Photographe = 'Bolide Studio';
     TitreProjet = 'Territoire Refuge';
     DescriptionProjet = 'Installation sculpturale<br>avec Caroline Fortin autrice<br><br>Grand-Métis, Québec';
   }
 
-  if (icurrentIndex >= 34 && icurrentIndex <= 35)  {
+  if (icurrentIndex >= 47 && icurrentIndex <= 48)  {
     Photographe = 'Alec Chenard';
     TitreProjet = 'Monk';
     DescriptionProjet = 'Aménagement d’un studio de musique<br> avec <br><br>Montréal, Québec';
   }
-    if (icurrentIndex >= 36 && icurrentIndex <= 42)  {
+    if (icurrentIndex >= 49 && icurrentIndex <= 54)  {
     Photographe = 'David Dworkind';
     TitreProjet = 'La Conception';
     DescriptionProjet = 'Gîte touristique sous <i>hinterhouse</i><br>avec David Dworkind architecte<br><br>Prix d’excellence en architecture<br>Ordre des Architectes du Québec<br><br>La Conception, Québec';
   } 
+ 
 }
+
 
 
 
